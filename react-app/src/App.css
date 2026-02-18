@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #0b3d91;
+  color: white;
+  padding: 30px 20px;
+}
+
+.courses {
+  margin: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.courses ul {
+  list-style: none;
+  padding: 0;
+}
+
+.courses li {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.footer {
+  text-align: center;
+  background-color: #0b3d91;
+  color: white;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
