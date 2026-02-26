@@ -46,3 +46,22 @@ of VM and on browser hiy as :
    <public-ip>:80
 
 *Make sure All traffic is enabled in security groups of the instance
+
+# Pushing image to DockerHub Account:
+To push the image created to your dockerhub account follow the instructions as below~
+
+First make sure you are logged in to your DockerHub account(if not use "docker login" command and enter the credentials).
+
+Next use the commands below to tag and push the image:
+    docker tag <image-name> <dockerhub-username>/<image-name>:<tag>
+    eg. docker tag web-app ankush6078/web-app:latest
+
+Next use the command below to push the inage to dockerhub account:
+   docker push <tag-name>:<tag>
+   eg. docker push ankush6078/web-app:latest
+
+*Our image will be present in the "My Hub" section in our Docker Hub account with specified name 
+
+*We can pull the image to any machine as:
+   docker pull <tag-name>:<tag>
+   eg. docker pull ankush6078/web-app:latest
